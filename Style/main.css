@@ -1,4 +1,8 @@
 
+body{display: grid;
+
+
+}
 
  nav{ grid-column: 2/8;
 
@@ -7,4 +11,24 @@
  .logo{
      float: center;
  }
-
+.button {
+    background-color: #D9D9D9; 
+    border: 2px solid #111111;
+    color: #BE0000;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  
+ .button:not(:last-child) {
+    border-right: none; 
+  }
+  
+.button:hover {
+    background-color: #3e8e41;
+  }
