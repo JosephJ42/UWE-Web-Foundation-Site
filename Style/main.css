@@ -30,5 +30,7 @@ body{display: grid;
   }
   
 .button:hover {
-    background-color: #3e8e41;
+    background-color: #111111;
+    border: 2px solid #BE0000;
+    color: #D9D9D9;
   }
