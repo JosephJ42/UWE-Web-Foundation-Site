@@ -1,6 +1,7 @@
-body{ background-image: url("background.png");
+body{ background-image: scr="Images/background.png";
   background-repeat: no-repeat;
   background-position: right top;
+  background-attachment: fixed;
 
 }
 
