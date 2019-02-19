@@ -1,4 +1,4 @@
-body{ background-image: "Images/Background.gif";
+body{ background-image: url("../Images/Background.gif");
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
@@ -12,8 +12,6 @@ body{ background-image: "Images/Background.gif";
 
 nav{ grid-column: 1/17;
   grid-row:  1/3;
- background-color: aqua;
- 
 }
 
 button {             
