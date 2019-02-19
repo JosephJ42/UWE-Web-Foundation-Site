@@ -1,4 +1,6 @@
-body{  background-image: url("Images/background.png");
+body{ background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-position: right top;
 
 }
 
