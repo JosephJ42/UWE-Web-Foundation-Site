@@ -1,8 +1,8 @@
-body{ background-image: scr="Images/background.png";
+body{ background-image: "Images/Background.gif";
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
-
+  background-size: cover;
 }
 
 .content{ display: grid;
