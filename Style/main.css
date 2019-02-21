@@ -40,8 +40,7 @@ width: auto;
 align-self: center;
 max-width: 20%;
 max-height: 20%;
-margin-top: 10%;
-margin-left: 9%;
+
 }
 
 article{ grid-column: 2/16;
