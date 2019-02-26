@@ -24,7 +24,7 @@ nav{ grid-area: nav;
   "button button button logo button button button"
 }
 
-button { /* This code was taken and then altered from W3 schools. Reference: W3schoolscom. 2019. W3schoolscom. [Online]. [21 February 2019]. Available from: https://www.w3schools.com/css/css3_buttons.asp*/
+.navbutton { /* This code was taken and then altered from W3 schools. Reference: W3schoolscom. 2019. W3schoolscom. [Online]. [21 February 2019]. Available from: https://www.w3schools.com/css/css3_buttons.asp*/
     grid-area: button;
     background-color: #D9D9D9; 
     border: 2px solid #111111;
