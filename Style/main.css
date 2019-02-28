@@ -76,7 +76,9 @@ article{ grid-area: article;
 }
 .maintext{ grid-area: sectiontext;}
 
-#AboutUsAside{ 
+#AboutUsimage{ 
  width: 180%;
- padding: 5%;
+ padding-top: 5%;
+ padding-left: 5%;
+ padding-bottom: 5%;
 }
