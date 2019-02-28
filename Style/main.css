@@ -18,8 +18,10 @@ nav{ grid-area: nav;
   display: grid;                              
   grid-template-columns: repeat(7,1fr);   
   grid-template-rows: auto;               
-  grid-template-areas:                    
+  grid-template-areas:
+  " . . . . . . . "                    
   "button button button logo button button button"
+  " . . . . . . . "
 }
 
 .navbutton { /* This code was taken and then altered from W3 schools. Reference: W3schoolscom. 2019. W3schoolscom. [Online]. [21 February 2019]. Available from: https://www.w3schools.com/css/css3_buttons.asp*/
@@ -47,16 +49,26 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
 }
 
 #logo{grid-area: logo;
-width: 100%;
+width: auto;
+max-width: 100%;
 }
 
 article{ grid-area: article;
   background-color: #D9D9D9; 
   border: 2px solid #111111;
-  
+  display: grid;                              
+  grid-template-columns: repeat(5,20%);   
+  grid-template-rows: auto;               
+  grid-template-areas:                    
+  "aside aside sectiontext sectiontext sectiontext"
 }
-.articletext{ text-align: center;
+.articletext{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
+.title{font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.maintext{ grid-area: sectiontext;}
