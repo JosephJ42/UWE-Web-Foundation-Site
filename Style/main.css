@@ -4,14 +4,14 @@ body{ background-image: url("../Images/Background.gif");
   background-attachment: fixed;
   background-size: cover;
   display: grid;                              
-  grid-template-columns: repeat(5,20%);   
+  grid-template-columns: repeat(4,25%);   
   grid-template-rows: auto;               
   grid-template-areas:                    
-  " nav nav nav nav nav "
-  " . . . . . "
-  " . article article article . "
-  " . article article article . "
-  " . . . . . "
+  " nav nav nav nav"
+  " . . . ."
+  " . article article  . "
+  " . article article  . "
+  " . . . ."
 }
 
 nav{ grid-area: nav;
@@ -19,7 +19,7 @@ nav{ grid-area: nav;
   grid-template-columns: repeat(7,1fr);   
   grid-template-rows: auto;               
   grid-template-areas:                    
-  "button button button logo button button button"
+  "button button button button button button"
 }
 
 .navbutton { /* This code was taken and then altered from W3 schools. Reference: W3schoolscom. 2019. W3schoolscom. [Online]. [21 February 2019]. Available from: https://www.w3schools.com/css/css3_buttons.asp*/
@@ -37,7 +37,7 @@ nav{ grid-area: nav;
     font-size: 100%;
     cursor: pointer; 
     width: 100%;
-    margin-top: 44%;
+    margin-top: 43%;
 }
     
 button:hover {  /* This code was taken and then altered from W3 schools. Reference: W3schoolscom. 2019. W3schoolscom. [Online]. [21 February 2019]. Available from: https://www.w3schools.com/css/css3_buttons.asp*/
