@@ -67,14 +67,16 @@ article{ grid-area: article;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: bold;
+  padding-left: 2%;
 }
 .title{font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bold;
+  padding-left: 2%;
 }
 .maintext{ grid-area: sectiontext;}
 
 #AboutUsAside{ 
-  width: 180%;
- padding: 2%;
+ width: 180%;
+ padding: 5%;
 }
