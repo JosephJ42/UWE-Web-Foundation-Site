@@ -51,6 +51,7 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
 #logo{grid-area: logo;
 width: auto;
 max-width: 100%;
+min-width: 90%;
 }
 
 article{ grid-area: article;
@@ -72,3 +73,8 @@ article{ grid-area: article;
   font-weight: bold;
 }
 .maintext{ grid-area: sectiontext;}
+
+#AboutUsAside{ 
+  width: 180%;
+ padding: 2%;
+}
