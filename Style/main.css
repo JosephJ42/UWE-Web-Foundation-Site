@@ -87,12 +87,20 @@ article{ grid-area: article;
  padding-right: 2%;
 }
 aside{ grid-area: aside;
-
+  display: grid;                              
+  grid-template-columns: repeat(3,33.3%);   
+  grid-template-rows: auto;               
+  grid-template-areas:                    
+  "aside-text aside-text aside-text"
+  "links links links"
 }
-.asidetext{ grid-area: aside;
+.asidetext{ grid-area: aside-text;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 100%;
   font-weight: bold;
   padding-left: 2%;
   text-align: center;
+}
+.socialmedialinks{ grid-area: links;
+  width: 50%;
 }
