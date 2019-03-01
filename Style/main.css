@@ -12,7 +12,6 @@ body{ background-image: url("../Images/Background.gif");
   " . article article article article article article   .  "
   " . article article article article article article   .   "
   " . . . . . . . ."
-  
 }
 
 nav{ grid-area: nav;
@@ -66,38 +65,36 @@ article{ grid-area: article;
   "article-image article-image aside aside aside"
 }
 
-.sectiontext{grid-area: sectiontext;
-  
-}
 #indextext{grid-area: aside;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 100%;
   font-weight: bold;
   padding-left: 2%;
   text-align: center;
-
 }
+
+.sectiontext{grid-area: sectiontext;}
+
 .title{font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bold;
   padding-left: 7%;
-  padding-top: 1%; 
-}
+  padding-top: 1%; }
+
 .text{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 100%;
   font-weight: bold;
   padding-left: 2%;
-  margin-left: 5%;
-}
+  margin-left: 5%;}
 
 #articleimage{ grid-area: article-image;
  width: 100%;
  padding-top: 5%;
  padding-left: 5%;
  padding-bottom: 5%;
- padding-right: 2%;
-}
+ padding-right: 2%;}
+
 aside{ grid-area: aside;
   display: grid;                              
   grid-template-columns: repeat(3,33.3%);   
