@@ -8,10 +8,8 @@ body{ background-image: url("../Images/Background.gif");
   grid-template-rows: auto;              
   grid-template-areas:                    
   " nav nav nav nav nav nav nav nav"
-  " . . . . . . . ."
   " . article article article article article article  .  "
   " . article article article article article article  .   "
-  " . . . . . . . ."
 }
 
 nav{ grid-area: nav;
