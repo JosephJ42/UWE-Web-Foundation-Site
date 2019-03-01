@@ -12,6 +12,7 @@ body{ background-image: url("../Images/Background.gif");
   " . article article article article article article   .  "
   " . article article article article article article   .   "
   " . . . . . . . ."
+  
 }
 
 nav{ grid-area: nav;
@@ -63,15 +64,8 @@ article{ grid-area: article;
   grid-template-areas:                    
   "aside aside sectiontext sectiontext sectiontext"
 }
-#articletextindex{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  padding-left: 2%;
-  text-align: center;
-}
 
-.articletext{
+.maintext{grid-area: sectiontext;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -82,8 +76,7 @@ article{ grid-area: article;
   font-weight: bold;
   padding-left: 2%;
 }
-.maintext{ grid-area: sectiontext;
-}
+
 #AboutUsimage{ 
  width: 180%;
  padding-top: 5%;
