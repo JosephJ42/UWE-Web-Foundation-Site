@@ -77,9 +77,10 @@ article{ grid-area: article;
   padding-left: 2%;
 }
 
-#AboutUsimage{ 
- width: 180%;
+#articleimage{ grid-area: aside;
+ width: 100%;
  padding-top: 5%;
  padding-left: 5%;
  padding-bottom: 5%;
+ padding-right: 2%;
 }
