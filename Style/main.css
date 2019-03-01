@@ -62,7 +62,8 @@ article{ grid-area: article;
   grid-template-columns: repeat(5,20%);   
   grid-template-rows: auto;               
   grid-template-areas:                    
-  "aside aside sectiontext sectiontext sectiontext"
+  "article-image article-image sectiontext sectiontext sectiontext"
+  "article-image article-image aside aside aside"
 }
 
 .maintext{grid-area: sectiontext;
@@ -71,16 +72,27 @@ article{ grid-area: article;
   font-weight: bold;
   padding-left: 2%;
 }
+
 .title{font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bold;
   padding-left: 2%;
 }
 
-#articleimage{ grid-area: aside;
+#articleimage{ grid-area: article-image;
  width: 100%;
  padding-top: 5%;
  padding-left: 5%;
  padding-bottom: 5%;
  padding-right: 2%;
+}
+aside{ grid-area: aside;
+
+}
+.asidetext{ grid-area: aside;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  padding-left: 2%;
+  text-align: center;
 }
