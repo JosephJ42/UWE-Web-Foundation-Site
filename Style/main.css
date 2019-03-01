@@ -64,6 +64,12 @@ min-width: 90%;
   "article-image article-image sectiontext sectiontext sectiontext"
   "article-image article-image aside aside aside"
 }
+#indexarticle{ grid-area: article;
+  background-color: #D9D9D9; 
+  border: 2px solid #111111;
+  text-align: center; 
+
+}
 
 #indextext{grid-area: aside;
   font-family: Arial, Helvetica, sans-serif;
