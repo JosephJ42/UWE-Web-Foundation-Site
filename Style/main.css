@@ -119,6 +119,27 @@ aside{ grid-area: aside;
   margin-left: 20%;
 }
 
+#LineUpArticle{ grid-area: article; 
+  display: grid;                              
+  grid-template-columns: repeat(3,33.3%);   
+  grid-template-rows: auto;               
+  grid-template-areas:                    
+  ". . ."
+  "bandnav bandnav bandnav"
+  "bandnav bandnav bandnav"
+}
+
+.bandnav{ grid-area: article; 
+  background-color: #D9D9D9; 
+  border: 2px solid #111111;
+  display: grid;
+  grid-template-columns: repeat(2,50%);   
+  grid-template-rows: auto;
+  grid-template-areas:                    
+  "LineUpImage LineUpText"
+  
+}
+
 
 
 
