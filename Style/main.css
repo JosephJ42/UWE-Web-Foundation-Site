@@ -66,8 +66,8 @@ min-width: 90%;
   background-color: #D9D9D9; 
   border: 2px solid #111111;
   text-align: center; 
-
 }
+
 
 #indextext{grid-area: aside;
   font-family: Arial, Helvetica, sans-serif;
@@ -129,9 +129,10 @@ aside{ grid-area: aside;
   "bandnav bandnav bandnav"
 }
 
-.bandnav{ grid-area: article; 
+.bandnav{ grid-area: bandnav; 
   background-color: #D9D9D9; 
   border: 2px solid #111111;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(2,50%);   
   grid-template-rows: auto;
