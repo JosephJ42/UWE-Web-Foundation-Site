@@ -143,6 +143,16 @@ aside{ grid-area: aside;
 
 
 
+#form{grid-area: sectiontext;
+padding: 1%;
+margin-left: 4%;
+}
+#submit{ align-self: center;
+  margin-left: 50%;
+  
+
+}
+
 
 
 

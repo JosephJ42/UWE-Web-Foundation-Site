@@ -20,7 +20,47 @@
       </nav>
 
     <article class="article">
+        
+            <img id="articleimage" src="Images/Aboutusimg.jpg" alt="Clifton Rocks festival">
+
+            <form id="form" action="mailto:someone@example.com" method="get">
+                    <fieldset>
+                      <label for="title">Title:</label>
+                      <select name="title" required>
+                          <option></option> 
+                          <option value="Dr">Dr</option>
+                          <option value="Mr">Mr</option>
+                          <option value="Mrs">Mrs</option>
+                          <option value="Ms.">Ms.</option>
+                          <option value="Miss">Miss</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                      <label for="name">First & Last Name: </label>
+                      <input type="text"  name="name" required maxlength="100"/> 
+                    </fieldset>
+                    <fieldset>
+                        <label for="contact">Are you interested in attending the festival? </label> <br>
+                        <input type="checkbox" name="Contact Preferences" value="email"> Yes:<br>
+                        <input type="checkbox" name="Contact Preferences" value="post"> No:<br>
+                         
+                    </fieldset>
+                    <fieldset>
+                        <label for="contact">Which ticket would you like to purchase, if you're attending?</label> <br>
+                        <input type="checkbox" name="Contact Preferences" value="email"> General Admissions: <br>
+                        <input type="checkbox" name="Contact Preferences" value="post"> VIP:<br>
+                        <input type="checkbox" name="Contact Preferences" value="phone"> Not attending:  
+                    </fieldset>
+                    <fieldset>
+                        <label for="contact">Please voice your enquiry below:</label> <br>
+                        <textarea name="enquiry" rows="5" cols="50" required></textarea>
+                    </fieldset>
+                   
+                  <input id="submit" type="submit" value="Submit">
+              
+                  </form>    
     </article>
+
   </body>
 
 </html>
