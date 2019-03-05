@@ -149,9 +149,8 @@ margin-left: 4%;
 #submit{ align-self: center;
   margin-left: 45%;
 }
-#ticketsection{grid-area: article-image;
 
-}
+
 .ticket{
   background-color: #D9D9D9; 
   border: 2px solid #111111;
