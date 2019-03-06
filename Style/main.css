@@ -151,7 +151,6 @@ margin-left: 4%;
   margin-left: 45%;
 }
 
-
 .ticket{
   background-color: #D9D9D9; 
   border: 2px solid #111111;
@@ -168,7 +167,6 @@ margin-left: 4%;
   width: 100%;
   margin-top: 37%;
 }
-
 
 #map { grid-area: article-image;
 height: 100%;
