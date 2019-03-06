@@ -100,7 +100,7 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
  padding-bottom: 5%;
  padding-right: 2%;}
 
-aside{ grid-area: aside;
+.articleaside{ grid-area: aside;
   display: grid;                              
   grid-template-columns: repeat(3,33.3%);   
   grid-template-rows: auto;               
@@ -173,7 +173,12 @@ margin-left: 4%;
 #map { grid-area: article-image;
 height: 100%;
 width: 100%;
-margin-left: 5%;
-
-}
+margin-left: 5%;}
         
+.bandaside{grid-area: aside;
+  display: grid;                              
+  grid-template-columns: repeat(4,25%);   
+  grid-template-rows: auto;               
+  grid-template-areas:                    
+  "aside-text aside-text aside-text aside-text"
+  "links links links links"}
