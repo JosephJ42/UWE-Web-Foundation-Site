@@ -170,6 +170,7 @@ margin-left: 4%;
 }
 
 
-
-
-
+#map { grid-area: article-image;
+height: 100%; }
+          
+        
