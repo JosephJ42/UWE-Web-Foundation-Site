@@ -143,9 +143,10 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
   "LineUpImage LineUpText"
 }
 .BandNavImage{ grid-area: LineupImage;
-  height: 100%;
+  width: 100%;
 
 }
+.Lineuptitle{grid-area: LineUpText;}
 
 #form{grid-area: sectiontext;
 padding: 1%;
