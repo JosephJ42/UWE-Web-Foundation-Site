@@ -133,13 +133,17 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
 .bandnav{ grid-area: bandnav; 
   background-color: #D9D9D9; 
   border: 2px solid #111111;
-  width: 33%;
-  height: 50%;
+  width: 100%;
+  
   display: grid;
   grid-template-columns: repeat(2,50%);   
   grid-template-rows: auto;
   grid-template-areas:                    
   "LineUpImage LineUpText"
+}
+.BandNavImage{ grid-area: LineupImage;
+  height: 100%;
+
 }
 
 #form{grid-area: sectiontext;
