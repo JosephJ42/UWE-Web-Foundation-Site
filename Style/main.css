@@ -120,7 +120,9 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
   margin-left: 20%;
 }
 
-#LineUpArticle{ grid-area: article; 
+#LineUpArticle{ grid-area: article;
+  margin-right: 4%;
+  margin-top: 5%;
   display: grid; 
   grid-gap: 2%;                             
   grid-template-columns: repeat(3,33.3%);   
@@ -147,9 +149,12 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
 }
 .BandNavImage{ grid-area: LineUpImage;
   width: 100%;
-  height: 150px;
-  padding: 5%;
-  border-radius: 20px;
+  
+  max-height: 150px;
+  padding-left: 4%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 2%;
 }
 
 .Lineuptitle{grid-area: LineUptitle;
@@ -161,7 +166,7 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   margin-left: 7%;
-  margin-top: -10%;
+  margin-top: -5%;
 }
 a{text-decoration: none;}
 
