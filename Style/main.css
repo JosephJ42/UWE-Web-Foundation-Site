@@ -109,8 +109,8 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
 #TicketsGA{
   width: 100%;
   background-color: #D9D9D9; 
-  border: 2px solid #111111;
-  color: #BE0000;
+  border: 2px solid #BE0000;
+  color: #111111;
   padding: 1em 1em;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -129,8 +129,8 @@ padding:5%;
 #TicketsVIP{
   width: 100%; 
   background-color: #D9D9D9; 
-  border: 2px solid #111111;
-  color: #BE0000;
+  border: 2px solid #BE0000;
+  color: #111111;
   padding: 1em 1em;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -147,6 +147,11 @@ padding:5%;
   padding:5%;
 }
 
+.Tickettext{font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  padding-left: 2%;
+  text-align: center;}
 
 
 #articleimage{ grid-area: article-image;
