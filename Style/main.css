@@ -34,7 +34,7 @@ nav{ grid-area: nav;
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
-  font-size: 100%;
+  font-size: 1vw;
   cursor: pointer; 
   width: 100%;
   margin-top: 37%;
@@ -71,7 +71,7 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
 
 #indextext{grid-area: aside;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 100%;
+  font-size:  1vw;
   font-weight: bold;
   padding-left: 2%;
   text-align: center;
@@ -80,14 +80,14 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
 .sectiontext{grid-area: sectiontext;}
 
 .title{font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: bold;
   padding-left: 7%;
   padding-top: 1%;
  }
 .text{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 100%;
+  font-size: 1vw;
   font-weight: bold;
   padding-left: 2%;
   margin-left: 5%;
@@ -118,7 +118,7 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
-  font-size: 100%;
+  font-size: 1vw;
   cursor: pointer; 
   width: 100%; 
 }
@@ -138,7 +138,7 @@ padding:5%;
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
-  font-size: 100%;
+  font-size: 1vw;
   cursor: pointer; 
   width: 100%;
 }
@@ -148,7 +148,7 @@ padding:5%;
 }
 
 .Tickettext{font-family: Arial, Helvetica, sans-serif;
-  font-size: 100%;
+  font-size: 1vw;
   font-weight: bold;
   padding-left: 2%;
   text-align: center;}
@@ -173,7 +173,7 @@ padding:5%;
 
 .asidetext{ grid-area: aside-text;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 100%;
+  font-size: 1vw;
   font-weight: bold;
   padding-left: 2%;
   text-align: center;
@@ -224,12 +224,12 @@ padding:5%;
 
 .Lineuptitle{grid-area: LineUptitle;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 1vw;
   margin-left: 7%;
 }
 .LineUpText{grid-area: LineUpText;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 0.85vw;
   margin-left: 7%;
   margin-top: -5%;
 }
