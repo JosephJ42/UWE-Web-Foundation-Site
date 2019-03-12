@@ -146,6 +146,13 @@ padding:5%;
 #sectionVIP{grid-area: TicketVIP;
   padding:5%;
 }
+#sectionTickettext{grid-area: sectiontext;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:  1vw;
+  font-weight: bold;
+  padding-left: 2%;
+  text-align: center;
+}
 
 .Tickettext{font-family: Arial, Helvetica, sans-serif;
   font-size: 1vw;
