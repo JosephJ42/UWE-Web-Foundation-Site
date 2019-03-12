@@ -69,7 +69,6 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
   
 }
 
-
 #indextext{grid-area: aside;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 100%;
@@ -91,14 +90,72 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
   font-size: 100%;
   font-weight: bold;
   padding-left: 2%;
-  margin-left: 5%;}
+  margin-left: 5%;
+}
+
+
+#ticketarticle{ grid-area: article;
+  background-color: #D9D9D9; 
+  border: 2px solid #111111;
+  display: grid;                              
+  grid-template-columns: repeat(3,33.3%);   
+  grid-template-rows: auto;               
+  grid-template-areas:                    
+  " TicketGA .   TicketVIP "
+  ". sectiontext ."
+}
+
+
+#TicketsGA{
+  width: 100%;
+  background-color: #D9D9D9; 
+  border: 2px solid #111111;
+  color: #BE0000;
+  padding: 1em 1em;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: auto;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  cursor: pointer; 
+  width: 100%; 
+}
+#sectionGA{grid-area: TicketGA;
+padding:5%;
+}
+
+#TicketsVIP{
+  width: 100%; 
+  background-color: #D9D9D9; 
+  border: 2px solid #111111;
+  color: #BE0000;
+  padding: 1em 1em;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: auto;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  cursor: pointer; 
+  width: 100%;
+}
+
+#sectionVIP{grid-area: TicketVIP;
+  padding:5%;
+}
+
+
 
 #articleimage{ grid-area: article-image;
  width: 100%;
  padding-top: 5%;
  padding-left: 5%;
  padding-bottom: 5%;
- padding-right: 2%;}
+ padding-right: 2%;
+}
 
 .articleaside{ grid-area: aside;
   display: grid;                              
@@ -108,6 +165,7 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
   "aside-text aside-text aside-text"
   "links links links"
 }
+
 .asidetext{ grid-area: aside-text;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 100%;
@@ -115,6 +173,7 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
   padding-left: 2%;
   text-align: center;
 }
+
 .socialmedialinks{ grid-area: links;
   width: 50%;
   margin-left: 20%;
@@ -147,6 +206,7 @@ button:hover {  /* This code was taken and then altered from W3 schools. Referen
   "LineUpImage LineUptitle"
   "LineUpImage LineUpText"
 }
+
 .BandNavImage{ grid-area: LineUpImage;
   width: 100%;
   
@@ -177,23 +237,6 @@ margin-left: 4%;
 
 #submit{ align-self: center;
   margin-left: 45%;
-}
-
-#TicketsGA, #TicketsVIP { grid-area: sectiontext;
-  background-color: #D9D9D9; 
-  border: 2px solid #111111;
-  color: #BE0000;
-  padding: 1em 1em;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: auto;
-  font-weight: bold;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 100%;
-  cursor: pointer; 
-  width: 100%;
-  margin-top: 37%;
 }
 
 #map { grid-area: article-image;
