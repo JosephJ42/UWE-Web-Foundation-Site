@@ -294,17 +294,10 @@ margin-left: 5%;}
   grid-template-rows: auto;               
   grid-template-areas:                    
   ". Gallery Gallery  ."
+ 
   }
 
-
-
-
-
-
-
- 
-
-
+/* the following code was taken and then altered from w3 schools Reference: W3schoolscom. 2019. W3schoolscom. [Online]. [13 March 2019]. Available from: https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
 
 /* Position the image container (needed to position the left and right arrows) */
 .container { grid-area: Gallery;
