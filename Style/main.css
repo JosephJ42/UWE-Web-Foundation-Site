@@ -310,11 +310,11 @@ margin-left: 4%;
   margin-bottom: 2%;
   position: relative;
   box-sizing: border-box;
+  width: 100%;
 }
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
+.slidershowImage{
+  width: 100%; /**/
+  height: 19.5em; /**/
 }
 
 /* Add a pointer when hovering over the thumbnail images */
