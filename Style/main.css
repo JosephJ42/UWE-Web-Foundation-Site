@@ -214,7 +214,7 @@
     }
 }
 /* Desktop site */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 
 body{ background-image: url("../Images/Background.gif");
   background-repeat: no-repeat;
@@ -330,7 +330,7 @@ nav{ grid-area: nav;
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
-  font-size: 1em;
+  font-size: 100%;
   cursor: pointer; 
   width: 100%;
   margin-top: 37%;
@@ -353,7 +353,7 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
-  font-size: 1em;
+  font-size: 100%;
   cursor: pointer; 
   width: 100%;
   margin-top: 37%;}
@@ -364,7 +364,6 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
   min-width: 90%;
   margin-top: 1%;
   z-index: 1;
-  
 }
 
 
@@ -377,7 +376,7 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
 
 #indextext{grid-area: aside;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 100%;
   font-weight: bold;
   padding-left: 2%;
   text-align: center;
@@ -386,14 +385,14 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
 .sectiontext{grid-area: sectiontext;}
 
 .title{font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 100%;
   font-weight: bold;
   padding-left: 7%;
   padding-top: 1%;
  }
 .text{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 100%;
   font-weight: bold;
   padding-left: 2%;
   margin-left: 5%;
@@ -412,7 +411,7 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
-  font-size: 1em;
+  font-size: 100%;
   cursor: pointer; 
   width: 100%; 
   margin-left: 13%;
@@ -422,7 +421,7 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
 padding:10%;
 }
 #TickettextGA{font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 150%;
   font-weight: bold;
   padding-left: 2%;
   text-align: center;
@@ -440,7 +439,7 @@ padding:10%;
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.6vw;
+  font-size: 150%;
   cursor: pointer; 
   width: 100%;
   margin-left: -13%;
@@ -453,7 +452,7 @@ padding:10%;
 }
 
 #TickettextVIP{font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 100%;
   font-weight: bold;
   padding-left: 2%;
   text-align: center;
@@ -463,7 +462,7 @@ padding:10%;
 
 #sectionTickettext{grid-area: sectiontext;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 100%;
   font-weight: bold;
   padding-left: 2%;
   text-align: center;
@@ -482,7 +481,7 @@ padding:10%;
 
 .asidetext{ grid-area: aside-text;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 100%;
   font-weight: bold;
   padding-left: 2%;
   text-align: center;
@@ -508,12 +507,12 @@ padding:10%;
 
 .Lineuptitle{grid-area: LineUptitle;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 100%;
   margin-left: 7%;
 }
 .LineUpText{grid-area: LineUpText;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 100%;
   margin-left: 7%;
   margin-top: -5%;
 }
@@ -541,7 +540,7 @@ margin-left: 4%;
 
 #form{font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.8vw;}
+  font-size: 100%;}
 
 
 /*  This code was adapted from W3 schools. Reference: W3schoolscom. 2019. W3schoolscom. Available from: https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp [13 March 2019] */
@@ -581,7 +580,7 @@ margin-left: 4%;
   margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 100%;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
@@ -602,7 +601,7 @@ margin-left: 4%;
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 1em;
+  font-size: 100%;
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -611,7 +610,7 @@ margin-left: 4%;
 /* Container for image text */
 .caption-container {
   text-align: center;
-  font-size: 1em;
+  font-size: 100%;
   background-color: #222;
   padding: 2px 16px;
   color: white;
