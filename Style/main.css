@@ -1,3 +1,216 @@
+/* Mobile site */
+@media screen and (min-width: 320px) { 
+  body{ background-image: url("../Images/Background.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;                              
+    grid-template-columns: repeat(1,100%);   
+    grid-template-rows: auto;              
+    grid-template-areas:                    
+    " nav nav nav nav "
+    " article article article article "
+    " article article article article "
+  }
+  
+  nav{ grid-area: nav;
+    display: grid;                              
+    grid-template-columns: repeat(7,1fr);   
+    grid-template-rows: auto;               
+    grid-template-areas:
+    " . . . . . . . "                    
+    "button button button logo button button button"
+    " . . . . . . . "
+  }
+  .article{ grid-area: article;
+    background-color: #D9D9D9; 
+    border: 2px solid #111111;
+    display: grid;                              
+    grid-template-columns: repeat(1,100%);   
+    grid-template-rows: auto;               
+    grid-template-areas:                    
+    "article-image  "
+    "article-image  "
+    "sectiontext"
+    "aside" 
+  }
+  
+  #ticketarticle{ grid-area: article;
+    background-color: #D9D9D9; 
+    border: 2px solid #111111;
+    display: grid;                              
+    grid-template-columns: repeat(1,100%);   
+    grid-template-rows: auto;               
+    grid-template-areas:                    
+    " TicketGA"
+    " TicketVIP "
+    "sectiontext"
+  }
+  
+  .articleaside{ grid-area: aside;
+    display: grid;                              
+    grid-template-columns: repeat(3,33.3%);   
+    grid-template-rows: auto;               
+    grid-template-areas:                    
+    "aside-text aside-text aside-text"
+    "links links links"
+  }
+  #LineUpArticle{ grid-area: article;
+    margin-right: 8%;
+    margin-top: 5%;
+    display: grid; 
+    grid-gap: 4%;                             
+    grid-template-columns: repeat(3,33.3%);   
+    grid-template-rows: auto;               
+    grid-template-areas:                    
+    ". . ."
+    "bandnav bandnav bandnav"
+    "bandnav bandnav bandnav"
+  }
+  
+  .bandnav{ grid-area: bandnav; 
+    background-color: #D9D9D9; 
+    border: 2px solid #111111;
+    width: 100%;
+    text-decoration: none;
+    color: #111111;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(2,50%);   
+    grid-template-rows: auto;
+    grid-template-areas:                    
+    "LineUpImage LineUptitle"
+    "LineUpImage LineUpText"
+  }
+  .bandaside{grid-area: aside;
+    display: grid;                              
+    grid-template-columns: repeat(4,25%);   
+    grid-template-rows: auto;               
+    grid-template-areas:                    
+    "aside-text aside-text aside-text aside-text"
+    "links links links links"
+  }
+  
+  #Galleryarticle{ grid-area: article;
+    background-color: #D9D9D9; 
+    border: 2px solid #111111;
+    display: grid;                              
+    grid-template-columns: repeat(4,25%);   
+    grid-template-rows: auto;               
+    grid-template-areas:                    
+    ". Gallery Gallery  ."
+   
+    }
+}
+/* Tablet site */
+@media screen and (min-width: 600px) { 
+  body{ background-image: url("../Images/Background.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;                              
+    grid-template-columns: repeat(1,100%);   
+    grid-template-rows: auto;              
+    grid-template-areas:                    
+    " nav nav nav nav "
+    " article article article article "
+    " article article article article "
+  }
+  
+  nav{ grid-area: nav;
+    display: grid;                              
+    grid-template-columns: repeat(7,1fr);   
+    grid-template-rows: auto;               
+    grid-template-areas:
+    " . . . . . . . "                    
+    "button button button logo button button button"
+    " . . . . . . . "
+  }
+  .article{ grid-area: article;
+    background-color: #D9D9D9; 
+    border: 2px solid #111111;
+    display: grid;                              
+    grid-template-columns: repeat(1,100%);   
+    grid-template-rows: auto;               
+    grid-template-areas:                    
+    "article-image  "
+    "article-image  "
+    "sectiontext"
+    "aside" 
+  }
+  
+  #ticketarticle{ grid-area: article;
+    background-color: #D9D9D9; 
+    border: 2px solid #111111;
+    display: grid;                              
+    grid-template-columns: repeat(1,100%);   
+    grid-template-rows: auto;               
+    grid-template-areas:                    
+    " TicketGA"
+    " TicketVIP "
+    "sectiontext"
+  }
+  
+  .articleaside{ grid-area: aside;
+    display: grid;                              
+    grid-template-columns: repeat(3,33.3%);   
+    grid-template-rows: auto;               
+    grid-template-areas:                    
+    "aside-text aside-text aside-text"
+    "links links links"
+  }
+  #LineUpArticle{ grid-area: article;
+    margin-right: 8%;
+    margin-top: 5%;
+    display: grid; 
+    grid-gap: 4%;                             
+    grid-template-columns: repeat(3,33.3%);   
+    grid-template-rows: auto;               
+    grid-template-areas:                    
+    ". . ."
+    "bandnav bandnav bandnav"
+    "bandnav bandnav bandnav"
+  }
+  
+  .bandnav{ grid-area: bandnav; 
+    background-color: #D9D9D9; 
+    border: 2px solid #111111;
+    width: 100%;
+    text-decoration: none;
+    color: #111111;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(2,50%);   
+    grid-template-rows: auto;
+    grid-template-areas:                    
+    "LineUpImage LineUptitle"
+    "LineUpImage LineUpText"
+  }
+  .bandaside{grid-area: aside;
+    display: grid;                              
+    grid-template-columns: repeat(4,25%);   
+    grid-template-rows: auto;               
+    grid-template-areas:                    
+    "aside-text aside-text aside-text aside-text"
+    "links links links links"
+  }
+  
+  #Galleryarticle{ grid-area: article;
+    background-color: #D9D9D9; 
+    border: 2px solid #111111;
+    display: grid;                              
+    grid-template-columns: repeat(4,25%);   
+    grid-template-rows: auto;               
+    grid-template-areas:                    
+    ". Gallery Gallery  ."
+   
+    }
+}
+/* Desktop site */
+@media screen and (min-width: 768px) {
+
 body{ background-image: url("../Images/Background.gif");
   background-repeat: no-repeat;
   background-position: right top;
@@ -21,6 +234,83 @@ nav{ grid-area: nav;
   "button button button logo button button button"
   " . . . . . . . "
 }
+.article{ grid-area: article;
+  background-color: #D9D9D9; 
+  border: 2px solid #111111;
+  display: grid;                              
+  grid-template-columns: repeat(5,20%);   
+  grid-template-rows: auto;               
+  grid-template-areas:                    
+  "article-image article-image sectiontext sectiontext sectiontext"
+  "article-image article-image aside aside aside"
+}
+
+#ticketarticle{ grid-area: article;
+  background-color: #D9D9D9; 
+  border: 2px solid #111111;
+  display: grid;                              
+  grid-template-columns: repeat(3,33.3%);   
+  grid-template-rows: auto;               
+  grid-template-areas:                    
+  " TicketGA .   TicketVIP "
+  ". sectiontext ."
+}
+
+.articleaside{ grid-area: aside;
+  display: grid;                              
+  grid-template-columns: repeat(3,33.3%);   
+  grid-template-rows: auto;               
+  grid-template-areas:                    
+  "aside-text aside-text aside-text"
+  "links links links"
+}
+#LineUpArticle{ grid-area: article;
+  margin-right: 8%;
+  margin-top: 5%;
+  display: grid; 
+  grid-gap: 4%;                             
+  grid-template-columns: repeat(3,33.3%);   
+  grid-template-rows: auto;               
+  grid-template-areas:                    
+  ". . ."
+  "bandnav bandnav bandnav"
+  "bandnav bandnav bandnav"
+}
+
+.bandnav{ grid-area: bandnav; 
+  background-color: #D9D9D9; 
+  border: 2px solid #111111;
+  width: 100%;
+  text-decoration: none;
+  color: #111111;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: repeat(2,50%);   
+  grid-template-rows: auto;
+  grid-template-areas:                    
+  "LineUpImage LineUptitle"
+  "LineUpImage LineUpText"
+}
+.bandaside{grid-area: aside;
+  display: grid;                              
+  grid-template-columns: repeat(4,25%);   
+  grid-template-rows: auto;               
+  grid-template-areas:                    
+  "aside-text aside-text aside-text aside-text"
+  "links links links links"
+}
+
+#Galleryarticle{ grid-area: article;
+  background-color: #D9D9D9; 
+  border: 2px solid #111111;
+  display: grid;                              
+  grid-template-columns: repeat(4,25%);   
+  grid-template-rows: auto;               
+  grid-template-areas:                    
+  ". Gallery Gallery  ."
+ 
+  }
+}
 
 .navbutton { /* This code was adapted from W3 schools. Reference: W3schoolscom. 2019. W3schoolscom. [Online]. [21 February 2019]. Available from: https://www.w3schools.com/css/css3_buttons.asp*/
   grid-area: button;
@@ -34,7 +324,7 @@ nav{ grid-area: nav;
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
-  font-size: 0.9vw;
+  font-size: 1em;
   cursor: pointer; 
   width: 100%;
   margin-top: 37%;
@@ -57,7 +347,7 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
-  font-size: 0.9vw;
+  font-size: 1em;
   cursor: pointer; 
   width: 100%;
   margin-top: 37%;}
@@ -71,16 +361,7 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
   
 }
 
-.article{ grid-area: article;
-  background-color: #D9D9D9; 
-  border: 2px solid #111111;
-  display: grid;                              
-  grid-template-columns: repeat(5,20%);   
-  grid-template-rows: auto;               
-  grid-template-areas:                    
-  "article-image article-image sectiontext sectiontext sectiontext"
-  "article-image article-image aside aside aside"
-}
+
 #indexarticle{ grid-area: article;
   background-color: #D9D9D9; 
   border: 2px solid #111111;
@@ -90,7 +371,7 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
 
 #indextext{grid-area: aside;
   font-family: Arial, Helvetica, sans-serif;
-  font-size:  1vw;
+  font-size: 1em;
   font-weight: bold;
   padding-left: 2%;
   text-align: center;
@@ -99,29 +380,17 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
 .sectiontext{grid-area: sectiontext;}
 
 .title{font-family: Arial, Helvetica, sans-serif;
-  font-size: 1vw;
+  font-size: 1em;
   font-weight: bold;
   padding-left: 7%;
   padding-top: 1%;
  }
 .text{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1vw;
+  font-size: 1em;
   font-weight: bold;
   padding-left: 2%;
   margin-left: 5%;
-}
-
-
-#ticketarticle{ grid-area: article;
-  background-color: #D9D9D9; 
-  border: 2px solid #111111;
-  display: grid;                              
-  grid-template-columns: repeat(3,33.3%);   
-  grid-template-rows: auto;               
-  grid-template-areas:                    
-  " TicketGA .   TicketVIP "
-  ". sectiontext ."
 }
 
 
@@ -137,7 +406,7 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.6vw;
+  font-size: 1em;
   cursor: pointer; 
   width: 100%; 
   margin-left: 13%;
@@ -147,7 +416,7 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
 padding:10%;
 }
 #TickettextGA{font-family: Arial, Helvetica, sans-serif;
-  font-size: 1vw;
+  font-size: 1em;
   font-weight: bold;
   padding-left: 2%;
   text-align: center;
@@ -178,7 +447,7 @@ padding:10%;
 }
 
 #TickettextVIP{font-family: Arial, Helvetica, sans-serif;
-  font-size: 1vw;
+  font-size: 1em;
   font-weight: bold;
   padding-left: 2%;
   text-align: center;
@@ -188,7 +457,7 @@ padding:10%;
 
 #sectionTickettext{grid-area: sectiontext;
   font-family: Arial, Helvetica, sans-serif;
-  font-size:  1vw;
+  font-size: 1em;
   font-weight: bold;
   padding-left: 2%;
   text-align: center;
@@ -204,18 +473,10 @@ padding:10%;
  padding-right: 2%;
 }
 
-.articleaside{ grid-area: aside;
-  display: grid;                              
-  grid-template-columns: repeat(3,33.3%);   
-  grid-template-rows: auto;               
-  grid-template-areas:                    
-  "aside-text aside-text aside-text"
-  "links links links"
-}
 
 .asidetext{ grid-area: aside-text;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1vw;
+  font-size: 1em;
   font-weight: bold;
   padding-left: 2%;
   text-align: center;
@@ -228,38 +489,11 @@ padding:10%;
   margin-bottom: 4%;
 }
 
-#LineUpArticle{ grid-area: article;
-  margin-right: 8%;
-  margin-top: 5%;
-  display: grid; 
-  grid-gap: 4%;                             
-  grid-template-columns: repeat(3,33.3%);   
-  grid-template-rows: auto;               
-  grid-template-areas:                    
-  ". . ."
-  "bandnav bandnav bandnav"
-  "bandnav bandnav bandnav"
-}
 
-.bandnav{ grid-area: bandnav; 
-  background-color: #D9D9D9; 
-  border: 2px solid #111111;
-  width: 100%;
-  text-decoration: none;
-  color: #111111;
-  font-weight: bold;
-  display: grid;
-  grid-template-columns: repeat(2,50%);   
-  grid-template-rows: auto;
-  grid-template-areas:                    
-  "LineUpImage LineUptitle"
-  "LineUpImage LineUpText"
-}
 
 .BandNavImage{ grid-area: LineUpImage;
   width: 100%;
   height: 80%;
-  
   padding-left: 4%;
   padding-top: 8%;
   padding-bottom: 5%;
@@ -268,12 +502,12 @@ padding:10%;
 
 .Lineuptitle{grid-area: LineUptitle;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1vw;
+  font-size: 1em;
   margin-left: 7%;
 }
 .LineUpText{grid-area: LineUpText;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.85vw;
+  font-size: 1em;
   margin-left: 7%;
   margin-top: -5%;
 }
@@ -297,25 +531,7 @@ margin-left: 4%;
   border: 0;
 }
         
-.bandaside{grid-area: aside;
-  display: grid;                              
-  grid-template-columns: repeat(4,25%);   
-  grid-template-rows: auto;               
-  grid-template-areas:                    
-  "aside-text aside-text aside-text aside-text"
-  "links links links links"
-}
 
-#Galleryarticle{ grid-area: article;
-  background-color: #D9D9D9; 
-  border: 2px solid #111111;
-  display: grid;                              
-  grid-template-columns: repeat(4,25%);   
-  grid-template-rows: auto;               
-  grid-template-areas:                    
-  ". Gallery Gallery  ."
- 
-  }
 
 #form{font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -359,7 +575,7 @@ margin-left: 4%;
   margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1em;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
@@ -380,7 +596,7 @@ margin-left: 4%;
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 1vw;
+  font-size: 1em;
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -389,7 +605,7 @@ margin-left: 4%;
 /* Container for image text */
 .caption-container {
   text-align: center;
-  font-size: 1vw;
+  font-size: 1em;
   background-color: #222;
   padding: 2px 16px;
   color: white;
