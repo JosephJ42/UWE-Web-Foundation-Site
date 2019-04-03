@@ -332,10 +332,11 @@ margin-left: 4%;
   position: relative;
   box-sizing: border-box;
   width: 100%;
+ 
 }
 .slidershowImage{
   width: 100%; /**/
-  height: auto; /**/
+  max-height: 315px; /**/
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -400,6 +401,7 @@ margin-left: 4%;
 .column {
   float: left;
   width: 16.66%;
+ 
 }
 
 /* Add a transparency effect for thumnbail images */
