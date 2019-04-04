@@ -30,8 +30,8 @@
     grid-template-columns: repeat(1,100%);   
     grid-template-rows: auto;               
     grid-template-areas:                    
-    "article-image  "
-    "article-image  "
+    "article-image"
+    "article-image"
     "sectiontext"
     "aside" 
   }
@@ -367,7 +367,7 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
 }
 
 
-#indexarticle{ grid-area: article;
+.indexarticle{ grid-area: article;
   background-color: #D9D9D9; 
   border: 2px solid #111111;
   text-align: center;
@@ -475,7 +475,7 @@ padding:10%;
  padding-top: 5%;
  padding-left: 5%;
  padding-bottom: 5%;
- padding-right: 2%;
+ padding-right: 5%;
 }
 
 

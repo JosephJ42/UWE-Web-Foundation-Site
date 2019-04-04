@@ -1,12 +1,24 @@
+#!/usr/bin/python
+import cgi
+import cgitb
+cgitb.enable()
+
+print "Content-Type: text/html\n"
+
+formData = cgi.FieldStorage()
+title = formData.getvalue("title")
+name = formData.getvalue("name")
+
+
+print """
 <!doctype html>
 
 <html>
   <head>
     <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Clifton Rocks Homepage</title>
     <link rel="stylesheet" type="text/css" href="Style/main.css">
-    
+
   </head>
 
   <body>
@@ -18,16 +30,17 @@
         <a href="Maps.html"><button class="navbutton">Maps</button></a>
         <a href="Gallery.html"><button class="navbutton">Gallery</button></a>
         <a href="Contact us.html"><button class="navbutton">Contact Us</button></a>
-        
       </nav>
 
-    <article class="indexarticle">
-      <section id="indextext">
-      <p id="sectiontext"> Welcome to the <br> Clifton Rocks Festival<br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </p>
+    <article class="article">
+    <img id="articleimage" src="Images/FormImg.jpg" alt="Clifton Rocks festival">
+     <section class="sectiontext">
+     <p class="text"><strong>{0} {1}</strong>, thank you for your inquiry. We will be in touch as soon as possible.</p> 
     </section>
+         
     </article>
+
   </body>
 
 </html>
+""".format(title,name)
