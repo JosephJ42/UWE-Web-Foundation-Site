@@ -525,11 +525,9 @@ margin-left: 4%;
 }
 
 #map { grid-area: article-image;
-  height: 95%;
-  width: 200%;
-  padding-left: 5%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  width: 90%;
+  height: 90%;
+  padding: 5%;
   border: 0;
 }
         
