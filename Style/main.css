@@ -517,7 +517,7 @@ a{text-decoration: none;}
 
 #form{grid-area: sectiontext;
 padding: 1%;
-margin-left: 4%;
+margin-left: 0%;
 }
 
 #submit{ align-self: center;
