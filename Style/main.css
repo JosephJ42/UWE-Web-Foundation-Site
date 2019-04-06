@@ -26,11 +26,11 @@
 
   .menu { grid-area: nav;
     display: grid;                              
-    grid-template-columns: repeat(7,1fr);   
+    grid-template-columns: repeat(8,1fr);   
     grid-template-rows: auto;               
     grid-template-areas:
     " . . . . . . . "                    
-    "button button button logo button button button"
+    "burg-menu button button button logo button button button"
     " . . . . . . . "}
 
   .article{ grid-area: article;
@@ -659,7 +659,7 @@ margin-left: 0%;
 
 
 
-label {
+.menulabel{
   margin: 0 40px 0 0;
   font-size: 200%;
   line-height: 70px;
@@ -674,8 +674,8 @@ label {
 
 
 @media only screen and (max-width: 1024px) {
-  label { grid-area: button;
-    color: aqua;
+  .menulabel{
+    color: #BE0000;
       display: block;
       cursor: pointer;
   }
@@ -690,11 +690,13 @@ label {
   
     margin: 0;}
 
- #logo{display: none;
-}
+ #logo{display: none;}
 
 
-.navbutton{margin-top: 0%;
+
+  .navbutton{margin-top: 0%;
+    float: left;
+  
 }
 
   #toggle:checked + .menu {

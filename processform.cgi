@@ -24,7 +24,7 @@ print """
 
   <body>
          <nav>
-          <label for="toggle">&#9776;</label>
+          <label class="menulabel" for="toggle">&#9776;</label>
           <input type="checkbox" id="toggle"/>
           <div class="menu">
   
