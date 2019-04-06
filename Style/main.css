@@ -683,6 +683,7 @@ label {
     text-align: center;
     width: 100%;
     display: none;
+    background-color: #222;
 }
 .menu a {
     display: block;
@@ -691,6 +692,7 @@ label {
 
  #logo{display: none;
 }
+
 
 .navbutton{margin-top: 0%;
 }
