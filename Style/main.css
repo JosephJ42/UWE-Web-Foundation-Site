@@ -660,9 +660,7 @@ margin-left: 0%;
 
 
 .menulabel{
-  margin: 0 40px 0 0;
-  font-size: 200%;
-  line-height: 70px;
+  font-size: 250%;
   display: none;
   width: 26px;
   float: right;
@@ -686,16 +684,19 @@ margin-left: 0%;
     background-color: #222;
 }
 .menu a {
-    display: block;
+    margin-left:-5%;
   
     margin: 0;}
 
  #logo{display: none;}
 
+ nav{ background-color: #222;
+
+  }
 
 
   .navbutton{margin-top: 0%;
-    float: left;
+   
   
 }
 
