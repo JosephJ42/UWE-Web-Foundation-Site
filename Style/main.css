@@ -129,9 +129,9 @@
     grid-template-columns: repeat(1,100%);   
     grid-template-rows: auto;              
     grid-template-areas:                    
-    " nav nav nav nav "
-    " article article article article "
-    " article article article article "
+    " nav  "
+    " article"
+    " article"
   }
   
   nav{ grid-area: nav;
@@ -140,9 +140,18 @@
     grid-template-rows: auto;               
     grid-template-areas:
     " . . . . . . . "                    
-    "button button button logo button button button"
+    "menu menu menu menu menu menu menu "
     " . . . . . . . "
   }
+
+  .menu { grid-area: nav;
+    display: grid;                              
+    grid-template-columns: repeat(8,1fr);   
+    grid-template-rows: auto;               
+    grid-template-areas:
+    " . . . . . . . "                    
+    "burg-menu button button button logo button button button"
+    " . . . . . . . "}
   .article{ grid-area: article;
     background-color: #D9D9D9; 
     border: 2px solid #111111;
