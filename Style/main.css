@@ -150,7 +150,7 @@
     grid-template-rows: auto;               
     grid-template-areas:
     " . . . . . . . "                    
-    "burg-menu button button button logo button button button"
+    "burg-menu button button button button button button"
     " . . . . . . . "}
   .article{ grid-area: article;
     background-color: #D9D9D9; 
@@ -396,7 +396,6 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
   margin-top: 1%;
   z-index: 1;
 }
-
 
 .indexarticle{ grid-area: article;
   background-color: #D9D9D9; 
@@ -675,7 +674,7 @@ margin-left: 0%;
   font-size: 250%;
   display: none;
   width: 26px;
-  float: right;
+  float: left;
  padding: 5%;
 }
 #toggle {
@@ -689,18 +688,17 @@ margin-left: 0%;
       display: block;
       cursor: pointer;
   }
-  .menu {
-    text-align: center;
+  .menu { grid-area: menu;
+    text-align: left;
     width: 100%;
     display: none;
     background-color: #222;
 }
 .menu a {
-    margin-left:-5%;
-  
+    margin-left:-5%;  
     margin: 0;}
 
- #logo{display: block;}
+ #logo{ display: none;}
 
  nav{ background-color: #222;
 
