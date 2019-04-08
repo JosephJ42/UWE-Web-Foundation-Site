@@ -660,12 +660,11 @@ margin-left: 0%;
 /* This code was adapted and added apon from Caler Edwards . Edwards, C. (2017) Responsive Menu With Media Queries (Checkbox Trick) - Using Only CSS3. YouTube [/videocast]. 24th April . Available from: https://www.youtube.com/watch?v=xMTs8tAapnQ [Accessed 6th April 2019].*/
 
 .menulabel{ grid-area: HBMenu;
-  font-size: 300%;
   display: none;
   width: 26px;
   float: left;
  padding: 5%;
- z-index: 1;
+
 }
 #toggle { grid-area: HBMenu;
   position: relative;
@@ -675,16 +674,17 @@ margin-left: 0%;
 
 @media only screen and (max-width: 1024px) {
   .menulabel{
+    font-size: 8vw;
     color: #BE0000;
       display: block;
       cursor: pointer;
   }
   .menu { grid-area: menu;
     text-align: left;
-    width: 100%;
     display: none;
     background-color: #222;
-}
+    padding: 2%;
+    padding-top:10%;}
 .menu a {
   z-index: 1;
   }
@@ -693,15 +693,16 @@ margin-left: 0%;
   display: none;
   }
   #logoHBM{ grid-area: HBlogo;
-
-    z-index: 1;
-    width: 200%;
+    z-index: 2;
+    width: 100%;
+    max-width: 150%;
     display:inline-block;
+    padding: 5%;
   }
  nav{ background-color: #222;
-  height: 120%;
+  height: 100%;
   }
-article{ margin-top:5%;
+article{ margin-top:2%;
 }
 .navbutton{margin-top: 0%;
 }
