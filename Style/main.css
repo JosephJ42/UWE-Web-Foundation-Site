@@ -397,8 +397,6 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
   z-index: 1;
 }
 
-
-
 .indexarticle{ grid-area: article;
   background-color: #D9D9D9; 
   border: 2px solid #111111;
@@ -689,7 +687,6 @@ margin-left: 0%;
   min-width: 0%;
   display: none;
   }
-
  nav{ background-color: #222;
   }
 article{ margin-top:5%;
