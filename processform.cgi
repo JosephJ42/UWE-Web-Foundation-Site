@@ -24,6 +24,7 @@ print """
 
   <body>
          <nav>
+          <a href="Index.html"><img id="logoHBM" src="Images/logo-resized.png" alt="Clifton Rocks Logo"></a>
           <label class="menulabel" for="toggle">&#9776;</label>
           <input type="checkbox" id="toggle"/>
           <div class="menu">
