@@ -119,7 +119,7 @@
     }
 }
 /* Tablet site */
-@media screen and (min-width: 600px) { 
+@media screen and (min-width: 768px) { 
   body{ background-image: url("../Images/Background.gif");
     background-repeat: no-repeat;
     background-position: right top;
@@ -564,7 +564,7 @@ margin-left: 0%;
   font-size: 100%;}
 
 
-/*  This code was adapted from W3 schools. Reference: W3schoolscom. 2019. W3schoolscom. Available from: https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp [13 March 2019] */
+/*  This code was adapted and added apon from W3 schools. Reference: W3schoolscom. 2019. W3schoolscom. Available from: https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp [13 March 2019] */
 
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -578,7 +578,6 @@ margin-left: 0%;
 }
 .slidershowImage{
   width: 100%; /**/
-   /**/
 }
 .slidershowImageGallery{
   width: 100%; /**/
@@ -651,10 +650,10 @@ margin-left: 0%;
 .demo:hover {
   opacity: 1;
 }
+/* adapted code ends*/
 
 
-
-
+/* This code was adapted and added apon from Caler Edwards . Edwards, C. (2017) Responsive Menu With Media Queries (Checkbox Trick) - Using Only CSS3. YouTube [/videocast]. 24th April . Available from: https://www.youtube.com/watch?v=xMTs8tAapnQ [Accessed 6th April 2019].*/
 
 .menulabel{
   font-size: 250%;
@@ -707,7 +706,7 @@ article{ margin-top:5%;
     margin-right: 0%;
   }
 }
-
+/* adapted code ends*/
    
 
 
