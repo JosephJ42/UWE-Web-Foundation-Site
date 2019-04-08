@@ -528,7 +528,7 @@ padding:10%;
   width: 100%;
   padding:5%;
   border-radius: 2%;
-  vertical-align: middle;
+  height: auto;
 }
 
 .Lineuptitle{grid-area: LineUptitle;
