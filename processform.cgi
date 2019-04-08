@@ -17,7 +17,7 @@ print """
   <head>
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Clifton Rocks Homepage</title>
+    <title>Clifton Rocks Form Request Accepted</title>
     <link rel="stylesheet" type="text/css" href="Style/main.css">
 
   </head>
