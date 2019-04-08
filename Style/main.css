@@ -6,7 +6,7 @@
     background-attachment: fixed;
     background-size: cover;
     display: grid;                              
-    grid-template-columns: repeat(1,100%);   
+    grid-template-columns: repeat(3,100%);   
     grid-template-rows: auto;              
     grid-template-areas:                    
     " nav  "
@@ -26,11 +26,11 @@
 
   .menu { grid-area: nav;
     display: grid;                              
-    grid-template-columns: repeat(8,1fr);   
+    grid-template-columns: repeat(7,1fr);   
     grid-template-rows: auto;               
     grid-template-areas:
     " . . . . . . . "                    
-    "burg-menu button button button logo button button button"
+    "burg-menu button button button button button button"
     " . . . . . . . "}
 
   .article{ grid-area: article;
@@ -397,6 +397,10 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
   margin-top: 1%;
   z-index: 1;
 }
+#logoHamburgerMenu{grid-area: logo; 
+  width:100%;
+  min-width: 0%;
+   display: none;}
 
 .indexarticle{ grid-area: article;
   background-color: #D9D9D9; 
@@ -699,7 +703,11 @@ margin-left: 0%;
     margin-left:-5%;  
     margin: 0;}
 
- #logo{ display: none;}
+ #logo{ grid-area: logo; 
+  min-width: 0%;
+   display: none;}
+
+
 
  nav{ background-color: #222;
 

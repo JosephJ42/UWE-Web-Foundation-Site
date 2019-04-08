@@ -1,0 +1,4 @@
+There are a few querks with the site, these have been listed below with small eplaination of these querks.
+
+1) The site grid system does not work with internet explorer
+
