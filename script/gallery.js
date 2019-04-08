@@ -1,4 +1,4 @@
-//This code was adapted from W3 schools. Reference: W3schoolscom. 2019. W3schoolscom. Available from: https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp [7th March 2019] */
+//This code was adapted from W3 schools. Reference: W3schoolscom. 2019. W3schoolscom. Available from: https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp [7th March 2019]
 var slideIndex = 1;
 showSlides(slideIndex);
 
