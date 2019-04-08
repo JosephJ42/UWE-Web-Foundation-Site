@@ -18,9 +18,8 @@
     display: grid;                              
     grid-template-columns: repeat(7,1fr);   
     grid-template-rows: auto;               
-    grid-template-areas:
-    " . . . . . . . "                    
-    "menu menu menu menu menu menu menu "
+    grid-template-areas:                    
+    "HBlogo menu menu menu menu menu HBMenu"
     " . . . . . . . "
   }
 
@@ -30,7 +29,7 @@
     grid-template-rows: auto;               
     grid-template-areas:
     " . . . . . . . "                    
-    "Homebutton button button button button button button"
+    "button button button button button button button"
     " . . . . . . . "}
 
   .article{ grid-area: article;
@@ -138,9 +137,8 @@
     display: grid;                              
     grid-template-columns: repeat(7,1fr);   
     grid-template-rows: auto;               
-    grid-template-areas:
-    " . . . . . . . "                    
-    "menu menu menu menu menu menu menu "
+    grid-template-areas:                   
+    "HBlogo menu menu menu menu menu HBMenu "
     " . . . . . . . "
   }
 
@@ -150,7 +148,7 @@
     grid-template-rows: auto;               
     grid-template-areas:
     " . . . . . . . "                    
-    "burg-menu button button button button button button"
+    "button button button button button button button"
     " . . . . . . . "}
   .article{ grid-area: article;
     background-color: #D9D9D9; 
@@ -395,6 +393,12 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
   min-width: 90%;
   margin-top: 1%;
   z-index: 1;
+}
+#logoHBM{grid-area: HBlogo;
+  width: 20%;
+  max-width: 100%;
+  z-index: 1;
+  display: none;
 }
 
 .indexarticle{ grid-area: article;
@@ -655,15 +659,18 @@ margin-left: 0%;
 
 /* This code was adapted and added apon from Caler Edwards . Edwards, C. (2017) Responsive Menu With Media Queries (Checkbox Trick) - Using Only CSS3. YouTube [/videocast]. 24th April . Available from: https://www.youtube.com/watch?v=xMTs8tAapnQ [Accessed 6th April 2019].*/
 
-.menulabel{
-  font-size: 250%;
+.menulabel{ grid-area: HBMenu;
+  font-size: 300%;
   display: none;
   width: 26px;
   float: left;
  padding: 5%;
+ z-index: 1;
 }
-#toggle {
+#toggle { grid-area: HBMenu;
+  position: relative;
   display: none;
+  z-index: 1;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -679,14 +686,20 @@ margin-left: 0%;
     background-color: #222;
 }
 .menu a {
-    margin-left:-5%;  
-    margin: 0;
+  z-index: 1;
   }
- #logo{ grid-area: nav; 
+ #logo{ 
   min-width: 0%;
   display: none;
   }
+  #logoHBM{ grid-area: HBlogo;
+
+    z-index: 1;
+    width: 200%;
+    display:inline-block;
+  }
  nav{ background-color: #222;
+  height: 120%;
   }
 article{ margin-top:5%;
 }
