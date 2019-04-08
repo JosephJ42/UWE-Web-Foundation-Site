@@ -30,7 +30,7 @@
     grid-template-rows: auto;               
     grid-template-areas:
     " . . . . . . . "                    
-    "burg-menu button button button button button button"
+    "Homebutton button button button button button button"
     " . . . . . . . "}
 
   .article{ grid-area: article;
@@ -397,10 +397,7 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
   z-index: 1;
 }
 
-#logoHamburgerMenu{grid-area: logo; 
-  width:100%;
-  min-width: 0%;
-   display: none;}
+
 
 .indexarticle{ grid-area: article;
   background-color: #D9D9D9; 
@@ -688,10 +685,11 @@ margin-left: 0%;
     margin-left:-5%;  
     margin: 0;
   }
- #logo{ grid-area: logo; 
+ #logo{ grid-area: nav; 
   min-width: 0%;
-   display: none;
+  display: none;
   }
+
  nav{ background-color: #222;
   }
 article{ margin-top:5%;
