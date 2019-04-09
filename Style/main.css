@@ -387,6 +387,8 @@ button:hover {  /* This code was adapted from W3 schools. Reference: W3schoolsco
   width: 100%;
   margin-top: 37%;}
 
+a{text-decoration: none;}
+
 #logo{grid-area: logo;
   width: auto;
   max-width: 100%;
@@ -546,7 +548,6 @@ padding:10%;
   margin-left: 7%;
   margin-top: -5%;
 }
-a{text-decoration: none;}
 
 #form{grid-area: sectiontext;
 padding: 1%;
