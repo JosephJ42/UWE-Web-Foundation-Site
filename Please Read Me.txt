@@ -1,4 +1,4 @@
-There are a few querks with the site, these have been listed below with small eplaination of these querks.
+There is one querk with the site, this has been listed below.
 
-1) The site grid system does not work with internet explorer
+1) The sites grid system does not work with internet explorer 9, however works on all other major browsers.
 
